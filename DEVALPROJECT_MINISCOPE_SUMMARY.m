@@ -43,24 +43,30 @@ deval_5_addSpikeTimes(mouse); %adds the spike times for each unit to the structs
 % adjustment after reward downshift.
 
 % Panels A-D made by Nico
-deval_x_frustrativeBehavior(mouse); %Panels E-G; p-values added in illustrator
+deval_x_frustrativeBehavior(mouse); %Panels E-G; see list below for figure names
+% E: ExamplesPaths_Downshift_preShift and ExamplesPaths_Downshift_postShift 
+% F-H: final figure made by Nico, but mimics frustrationBehaviors_Downshift_alt
 
 %% FIGURE 2
 % Population code for reward magnitude in dorsal CA1.
 
 % Panels A-E made by Nico
 deval_x_preProcess_plotRateMaps(mouse); %Panel F; plots example ratemaps are made for each mouse (both during running and stationary) and some selected for figure
-deval_x_normRate_reward(mouse); %Panels G-J; also does the stats for those figures
+deval_x_normRate_reward(mouse); %Panels G-J; also does the stats for those figures; see list below for figure names
+% G: Activity_acrossMaze_Preference
+% H: Activity_acrossMaze_Downshift
+% I: Activity_acrossMaze_Adaptation
+% J: Activity_acrossMaze_Extinction
 
 %% FIGURE 3
 % Representation of reward magnitudes is not driven by spatial encoding of
 % place cells with place fields at reward locations.
 
 deval_x_preProcess_plot2dPfDetection(mouse); %Panel A; plots example ratemaps are made for each mouse and some selected for figure
-deval_x_2dPf_distToRew(mouse); %Panels B-D; also does stats; also saves raw data for Panel D, which Nico used to make the manuscript version of panel D
-%   Above function makes other plots as well, including plots when
-%   considering fields within 10 cm of the reward instead of 5 and pie
-%   charts for each individual mouse.
+deval_x_2dPf_distToRew(mouse); %Panels B-D; also does stats; also saves raw data for Panel D, which Nico used to make the manuscript version of panel D; see list below for figure names
+% B: pfPkLocsDownshift
+% C: %pf_5cmReward_Downshift
+% D: final figure made by Nico, but mimics pfDistxRate_Downshift and pfDistxSize_Downshift
 
 %% FIGURE 4
 % Reward-tethered (RT) place cells provide the cellular substrate for 
